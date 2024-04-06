@@ -3,9 +3,23 @@ header {
     height: 70px;
     width: 100%;
     border-bottom: 1px solid #CCCCCC;
+    position: relative;
 }
 header .logo {
     background: url("../images/logo.png") no-repeat;
     left: 20px;
     height: 100%;
+}
+#api_status.available {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    background-color: #ff545f; /* Change the background color */
+    width: 40px; /* Set the width */
+    height: 40px; /* Set the height */
+    border-radius: 50%; /* Create a circle */
+    transform: translateY(-50%); /* Center vertically */
+    text-align: center;
+    line-height: 40px; /* Center the content vertically */
+    color: white; /* Text color */
 }
